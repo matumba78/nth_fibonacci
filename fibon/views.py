@@ -52,8 +52,8 @@ class FibonacciView(View):
                 if not ResultFibonacci.objects.filter(number=number):
                     start_time = time.clock()
                     print start_time
-                    result = self.get_fibo_usinf_formula(number)
-                    print time.clock()
+                    result = self.get_fibo_by_dp(number)
+                    result = str(result)
                     time_taken = time.clock() - start_time
                     fibonacci_object = ResultFibonacci(number=number,result=result,time_elapsed=time_taken)
                     fibonacci_object.save()
