@@ -1,0 +1,42 @@
+Optimization using Different Algorithms Approach
+
+using formula O(1)
+ num - 6
+ result - 8
+ time - 0.00160020527414
+ 
+ num - 12
+ result - 144
+ time - 0.00227341010583
+ 
+ num - 18
+ result - 2584	
+ time - 0.00289623023538
+ 
+using basic algo
+
+ num - 6
+ result - 8
+ time - 0.000494990380112
+
+ num - 12
+ result - 144
+ time - 0.00347752902295
+ 
+ num - 18
+ result - 2584	
+ time - 0.000326572352577
+ 
+using dynamic programing
+
+ num - 6
+ result - 8
+ time - 0.00100024446273
+
+ num - 12
+ result - 144
+ time - 0.000408215440711
+ 
+ num - 18
+ result - 2584	
+ time - 0.000477262166683
